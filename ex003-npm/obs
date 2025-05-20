@@ -1,0 +1,17 @@
+
+npm install express -E = remove o circunflexo para nao atualizar a versao
+npm install express --save-dev = salva em desenvolvimento
+npm install express --save-prod = salva em producao (dependecies)
+^ = atualiza dentro de minior e patch
+~ = atualiza dentro de patch
+2.      1.      0
+major   minior  patch
+
+2.      1.      1  
+2.      2.      0
+3.      0       0
+
+para baixar uma versao especifica em ultimas versoes de minior e patch npm install express@4.x; o num 4 foi so exemplo
+
+npm outdated = mostra arquivos desatualizados
+
