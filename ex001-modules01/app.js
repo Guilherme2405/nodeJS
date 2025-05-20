@@ -8,3 +8,7 @@ console.log(mod1); //exibindo tudo do arquivo exportado
 mod1.falaNome('guiga', 'kirin'); // executando função dentro do outro arquivo
 falaNomeExportado('guilherme', 'cataneo'); //executando a função exportada
 console.log(p1) //exibindo o objeto criado
+
+
+const path = require('path');// ao instalar node nao e preciso especificar o caminho
+const axios = require('axios');// ao instalar node (ou qualquer outra ferramenta) nao e preciso especificar o caminho
