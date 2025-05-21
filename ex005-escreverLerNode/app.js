@@ -23,4 +23,3 @@ function renderizaDados(dados) {
   dados.forEach(val => console.log(val)); //escolhendo dados dentro de forEach
 }
 leArquivo(caminhoArquivo);
-
